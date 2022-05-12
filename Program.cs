@@ -22,6 +22,13 @@ namespace ConsoleApp1
 
            Console.WriteLine ((int)test);
            
+            //gets the string in the enums
+            int test2 = 1;
+            Console.WriteLine((ProductCodes)test2);
+            
+            //getting enum as  string
+            test2.ToString ();
+            Console.WriteLine ((ProductCodes)test2);
         }
     }
 }
