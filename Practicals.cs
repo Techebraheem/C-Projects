@@ -7,10 +7,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {                        
-    class Calculator
+    class Practicals
     {
         static void Main(string[] args)
         {
+            // using list<T>
+            
             var names = new List<string> { "name", "Ana", "Felipe" };
 
             Console.WriteLine();
